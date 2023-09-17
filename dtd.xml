@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bio [
+    <!ELEMENT bio (student*, employe*)>
+    <!ELEMENT student (name,age,Qualification)>
+    <!ELEMENT employe (name,age,Qualification,salary)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT age (#PCDATA)>
+    <!ELEMENT Qualification (#PCDATA)>
+    <!ELEMENT salary (#PCDATA)>
+    <!ENTITY abc "aptech shahar-e-faisal">
+    <!ATTLIST name center CDATA #FIXED "shahrah-e-faisal">
+]>
+<bio>
+    <student>
+        <name center="shahrah-e-faisal">ali &abc;</name>
+        <age>22</age>
+        <Qualification>MCS</Qualification>
+
+    </student>
+    <student>
+        <name center="shahrah-e-faisal">Hamza</name>
+        <age>21</age>
+        <Qualification>BS</Qualification>
+
+    </student>
+    <student>
+        <name center="shahrah-e-faisal">rafay</name>
+        <age>23</age>
+        <Qualification>MCS</Qualification>
+
+    </student>
+    
+    <employe>
+        <name center="shahrah-e-faisal">Hamza</name>
+        <age></age>
+        <Qualification></Qualification>
+        <salary></salary>
+
+    </employe>
+
+</bio>

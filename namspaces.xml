@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aptech xmlns:f1="abc" xmlns:f2="xyz">
+ 
+        <f1:faculty >
+            <f1:name>Ali</f1:name>
+            <f1:age>22</f1:age>
+            <f1:designation>faculty</f1:designation>
+        </f1:faculty>
+        <f2:faculty>
+            <name>Ali</name>
+            <age>22</age>
+            <designation>faculty</designation>
+        </f2:faculty>
+        
+   
+</aptech>

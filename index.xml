@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="index.xsl" type="text/xsl"?>
+<bio>
+<student>
+    <name>ali</name>
+    <email>ali@gmail.com    </email>
+    <qualification>BS</qualification>
+</student>
+<student>
+    <name>Huzaifa</name>
+    <email>h12@gmail.com</email>
+    <qualification>MS</qualification>
+</student>
+<student>
+    <name>sana</name>
+    <email>23</email>
+    <qualification>MCS</qualification>
+</student>
+
+
+
+</bio>

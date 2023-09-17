@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema.xsd" type="application/xml" ?>
+<bio>
+    <Studentname>Ali</Studentname>
+     <age>22</age>
+    <email>ali@gmail.com</email>
+   
+
+</bio>
